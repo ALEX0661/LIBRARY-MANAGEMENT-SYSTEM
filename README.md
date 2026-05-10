@@ -195,12 +195,3 @@ Role:     admin
 
 ---
 
-## Group 5 Members
-
-| Name | Role |
-|------|------|
-| *(add names here)* | |
-
----
-
-*CS Elective 3 — Backend Development · Instructor: Melner Balce*
