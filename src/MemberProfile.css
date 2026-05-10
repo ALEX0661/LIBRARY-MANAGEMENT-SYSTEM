@@ -1,0 +1,139 @@
+.mp-breadcrumb-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+  transition: color .15s;
+}
+
+.mp-breadcrumb-btn:hover { color: var(--brand); }
+
+.mp-profile-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.mp-col-left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mp-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mp-profile-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mp-avatar-wrap {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 12px;
+}
+
+.mp-avatar-inner {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.mp-active-dot {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  background: var(--green);
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.mp-name {
+  font-family: 'Syne', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mp-username {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.mp-status-badge {
+  margin-top: 8px;
+  font-size: 10.5px;
+}
+
+.mp-meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  margin-top: 18px;
+  text-align: left;
+}
+
+.mp-meta-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.mp-meta-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  background: var(--surface-2);
+  display: grid;
+  place-items: center;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.mp-meta-lbl {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.mp-meta-val {
+  font-size: 13px;
+  color: var(--text-primary);
+  word-break: break-all;
+}
+
+.mp-address-card {
+  padding: 16px;
+}
+
+.mp-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.mp-address-txt {
+  font-size: 13.5px;
+  color: var(--text-primary);
+  line-height: 1.5;
+}

@@ -1,0 +1,151 @@
+.ad-charts-row {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 16px;
+}
+
+.ad-chart-bar-card,
+.ad-chart-donut-card {
+  padding: 20px;
+}
+
+.ad-chart-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.ad-chart-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.ad-chart-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.ad-pill {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.ad-pill-bor { background: var(--brand); }
+.ad-pill-ret { background: var(--brand-mid); }
+.ad-pill-label { font-size: 12px; color: var(--text-secondary); }
+
+.ad-bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 8px 0 0;
+}
+
+.ad-bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.ad-bar-track {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ad-bar-bor { background: var(--brand); }
+.ad-bar-ret { background: #c7d2fe; }
+
+.ad-bar-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.ad-donut-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 8px;
+}
+
+.ad-donut {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.ad-donut-hole {
+  width: 88px;
+  height: 88px;
+  background: var(--surface);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-donut-total {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.ad-donut-val {
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.ad-donut-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.ad-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ad-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.ad-legend-txt {
+  font-size: 12.5px;
+  color: var(--text-secondary);
+}
+
+.ad-table-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 4px;
+}
+
+.ad-table-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}

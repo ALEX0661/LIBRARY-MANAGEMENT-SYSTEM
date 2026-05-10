@@ -1,0 +1,26 @@
+.lm-book-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  list-style: none;
+  z-index: 200;
+  max-height: 220px;
+  overflow-y: auto;
+  margin-top: 2px;
+}
+
+.lm-dropdown-item {
+  padding: 9px 14px;
+  cursor: pointer;
+  font-size: 13.5px;
+  border-bottom: 1px solid var(--border);
+  transition: background .1s;
+}
+
+.lm-dropdown-item:last-child { border-bottom: none; }
+.lm-dropdown-item:hover { background: var(--surface-2); }
